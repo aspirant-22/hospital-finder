@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nearby Hospitals Finder</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🏥 Find Nearby Hospitals</h1>
+        
+        <div class="input-group">
+            <input type="text" id="location-input" placeholder="Enter city, address, or postcode">
+            <button onclick="findLocation()">Search</button>
+        </div>
+
+        <div id="loading-message" class="loading-bar">Searching...</div>
+
+        <div class="results-container">
+            <div id="map"></div>
+            <div id="hospital-list">
+                <h2>Nearest Hospitals:</h2>
+                <ul id="list">
+                    <li>Enter a location and click Search to see results.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
