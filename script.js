@@ -3,7 +3,7 @@
 // =====================================================================
 
 // ⚠️ IMPORTANT: REPLACE THIS WITH YOUR ACTUAL GEOAPIFY API KEY
-const GEOAPIFY_API_KEY = "30b234cd872c4cd5a50ea59d1002c5b5";
+const GEOAPIFY_API_KEY = "##################################";
 
 // Global variables to store the user's location coordinates
 let userLat = null;
