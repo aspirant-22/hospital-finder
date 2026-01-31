@@ -82,6 +82,13 @@ Nearby-Hospital-Finder/
    - 🏥 Hospital cards shown in the hospital list  
 
 ---
+## 🌍 Live Deployment
+
+🚀 The project is deployed and accessible here:  
+👉 **Deployed Link:** [Nerby Hospital Finder](https://aspirant-22.github.io/hospital-finder/) 
+
+
+---
 
 ## 💻 Installation & Usage
 
@@ -121,13 +128,6 @@ Planned improvements include:
 
 ---
 
-## 🌍 Live Deployment
-
-🚀 The project is deployed and accessible here:  
-👉 **Deployed Link:** https://your-deployed-link.com  
-
-
----
 
 ## 🤝 Contributing
 
